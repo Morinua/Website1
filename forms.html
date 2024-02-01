@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms</title>
+  <style>
+    .input-section{
+      margin-top: 10px;
+      padding: 5px;
+      background-color: indianred;
+      width: 20%;
+    }
+    .input-section input{
+      background-color: greenyellow;
+      border-right: none;
+      border-left: none;
+      border-bottom: 1px solid black;
+      color: darkblue;
+    }
+
+
+
+    #btn{
+
+      color: aqua;
+      text-align: center;
+      background-color: gold;
+      width: 10%;
+      padding: 5px;
+      border-radius: 10px;
+
+    }
+    h1{
+      font-size: 25px;
+      color: black;
+      text-decoration: underline;
+      text-align: center;
+    }
+    h5{
+      color: crimson;
+      font-size: 18px;
+      font-family: "Lohit Bengali";
+
+    }
+    body{
+      background-color:grey;
+    }
+
+
+
+  </style>
+</head>
+<body>
+<form >
+  <h1>Employee Detail</h1>
+  <h5>BIO DATA</h5>
+  <div class="input-section">
+  <label for="">Name</label>
+  <input type="text"> <br><br>
+    </div>
+  <div class="input-section">
+  <label for="">Mobile No.</label>
+  <input type="text"> <br><br>
+    </div>
+  <label for="">Gender</label>
+  Male:<input type="radio" name="gender" checked value="male">
+  Female<input type="radio" name="gender" value="female"> <br><br>
+  <label for="">Hobbies:</label>
+  Dancing: <input type="checkbox" name="hobby" value="dancing">
+  Singing: <input type="checkbox" name="hobby" value="singing">
+  Soccer:  <input type="checkbox" name="hobby" value="soccer" checked> <br><br>
+  <label  for="">County:</label>
+  <select STYLE="color: blue;font-family: Inter" name="dropdown" id="">
+    <option value="">Nairobi</option>
+    <option value="">Kisumu</option>
+    <option value="">Mombasa</option>
+    <option value="">Nyeri</option>
+    <option value="">Nakuru</option>
+    <option value="">Narok</option>
+  </select>
+  <br><br>
+  <div id="btn">
+      <input type="submit" value="SUBMIT"> <br><br>
+      <input type="reset" value="RESET">   <br><br>
+    </div>
+  <p>Don't have an account</p>
+</form>
+
+</body>
+</html>

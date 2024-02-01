@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table</title>
+  <style>
+    h1{
+      color: darkblue;
+      font-size: 20px;
+      font-family: Chandas;
+      text-decoration: underline;
+      text-align: center;
+    }
+    p{
+      color: aqua;
+      font-size: 18px;
+      text-align: center;
+      font-family: Chilanka;
+    }
+    body{
+      background-color: crimson;
+      margin: 12px;
+      padding: 15px;
+      background-image: url("house.jpeg");
+    }
+    table{
+      margin: 15px;
+      border-radius: 20px;
+    }
+    .top{
+      color: green;
+      font-size: 25px;
+      background-color: purple;
+      text-decoration: none;
+      text-align: left;
+      width: 50%;
+
+    }
+    #file{
+      color: darkblue;
+      font-size: 18px;
+      text-decoration: underline;
+      font-family: "Droid Sans";
+    }
+    h2{
+      color: blue;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+    form{
+      background-color: blueviolet;
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 5px;
+      width: 200px;
+
+
+    }
+    .input-box{
+      /*border : 2px solid black;*/
+      /*border-radius: 5px;*/
+      /*padding: 15px;*/
+      /*border-bottom: 1px solid black;*/
+      /*border-left: none;*/
+      margin-top: 10px;
+      padding: 5px;
+
+
+    }
+
+
+
+
+    </>style>
+</head>
+<body >
+<h1 class="top"> Employees Table</h1>
+<p> This is data collected from the employees </p>
+<table border="2" cellspacing="15"cellpadding="5"bgcolor="aqua" width="50%">
+  <tr>
+    <th>NAME</th>
+    <th>GENDER</th>
+    <th>LOCATION</th>
+    <th>AGE</th>
+    <th>MARITAL STATUS</th>
+
+  </tr>
+  <tr>
+  <td>Fatma Tali</td>
+  <td>Female</td>
+  <td>Kakamega</td>
+  <td>26</td>
+  <td>Single</td>
+  </tr>
+  <tr>
+    <td>Moses Mwangi</td>
+    <td>Male</td>
+    <td>Nairobi</td>
+    <td>30</td>
+    <td>Married</td>
+  </tr>
+  <tr>
+    <td>Janelle Mukung</td>
+    <td>Female</td>
+    <td>Nandi</td>
+    <td>32</td>
+    <td>Single</td>
+  </tr>
+  <tr>
+    <td>Emmanuel Martins</td>
+    <td>Female</td>
+    <td>Mombasa</td>
+    <td>40</td>
+    <td>Married</td>
+  </tr>
+</table>
+<h1>Employees data</h1>
+<p id="file">this is information collected from employees</p>
+<form action="">
+  <h2> LOG IN</h2>
+  <div class="input-box">
+  <input type="text" placeholder="Username"> <br><br>
+    </div>
+  <div class="input-box">
+  <input type="password" placeholder="Password"> <br><br>
+    </div>
+  <div id="input-btn">
+  <input type="submit" value="SUBMIT"> <br><br>
+    </div>
+</form>
+
+
+</body>
+</html>
